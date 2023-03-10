@@ -3,7 +3,7 @@ import classes from './Mybutton.module.css'
 const Mybutton = (props) => {    
     return(
         <div>
-            <a href='https://vk.com/mister_anub'>
+            <a href={props.href}>
                 <button {...props} className={classes.myBtn}>
                     {props.children}
                 </button>
