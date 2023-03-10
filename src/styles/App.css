@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #000000;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    margin-right: 100px;
+}
+.main-part{
+    width: 100%;
+    display: flex;
+}
+.picture-part{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.description-part{
+    width: 45%;
+    background-color: #666666;
+    
+}
+.description{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    margin-left: 200px;
+}
+.image-place{
+    background-image: url(/src/img/Avatar1.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 100%;
+}
+.logo{
+    background-image: url(/src/img/logo.svg);
+    width: 135px;
+    height: 40px;
+    margin-left: 240px;
+    background-size: cover;
+}
