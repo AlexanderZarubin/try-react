@@ -1,7 +1,7 @@
 import React from 'react';
 //import { useState } from 'react';
 
-function App() {
+function Main() {
     return(
         <div className='App'>
             <div className='main-part'>
@@ -33,4 +33,4 @@ function App() {
     );
 
 }
-export default App;
+export default Main;

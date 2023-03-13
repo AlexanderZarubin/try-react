@@ -3,7 +3,7 @@ import Mybutton from './UI/button/Mybutton';
 const MyNavbar = (props) => {    
     return(
         <nav className="myNav">
-                    <a href='/main'>
+                    <a href='/'>
                         <Mybutton>Главная</Mybutton>
                     </a>
                     <a href='/programming'>
